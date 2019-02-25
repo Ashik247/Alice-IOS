@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>980655351223-hrp7p8addmur740n2cv8id7fi9eh0mq3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.980655351223-hrp7p8addmur740n2cv8id7fi9eh0mq3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDPOcOVKrbAVkSzZzR86F_1rizlrC5TB1I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>980655351223</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AshikChowdhury.Alice-Your-Personal-Reader</string>
+	<key>PROJECT_ID</key>
+	<string>alice-your-personal-reader</string>
+	<key>STORAGE_BUCKET</key>
+	<string>alice-your-personal-reader.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:980655351223:ios:2a77d16e21e5964c</string>
+	<key>DATABASE_URL</key>
+	<string>https://alice-your-personal-reader.firebaseio.com</string>
+</dict>
+</plist>

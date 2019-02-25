@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1127A5B2E84A4AC1791D1B3A /* Pods_Alice_Your_Personal_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300A649A622DD5EDB084CCA3 /* Pods_Alice_Your_Personal_Reader.framework */; };
+		18634FFA2206D25700896140 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18634FF92206D25700896140 /* GoogleService-Info.plist */; };
+		1872399F2205D3C800765412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872399E2205D3C800765412 /* AppDelegate.swift */; };
+		187239A12205D3C800765412 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187239A02205D3C800765412 /* ViewController.swift */; };
+		187239A42205D3C800765412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187239A22205D3C800765412 /* Main.storyboard */; };
+		187239A62205D3CF00765412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187239A52205D3CF00765412 /* Assets.xcassets */; };
+		187239A92205D3CF00765412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187239A72205D3CF00765412 /* LaunchScreen.storyboard */; };
+		187239B42205D3CF00765412 /* Alice_Your_Personal_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187239B32205D3CF00765412 /* Alice_Your_Personal_ReaderTests.swift */; };
+		187239BF2205D3CF00765412 /* Alice_Your_Personal_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187239BE2205D3CF00765412 /* Alice_Your_Personal_ReaderUITests.swift */; };
+		7FD5CE5FE8DC910F1315D58D /* Pods_Alice_Your_Personal_ReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CEC42BE95BB8FD87ECF9DA /* Pods_Alice_Your_Personal_ReaderUITests.framework */; };
+		8577DA7E935FF728B5187067 /* Pods_Alice_Your_Personal_ReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195DCC7A240D5F4874858B8 /* Pods_Alice_Your_Personal_ReaderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187239B02205D3CF00765412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187239932205D3C800765412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1872399A2205D3C800765412;
+			remoteInfo = "Alice-Your Personal Reader";
+		};
+		187239BB2205D3CF00765412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187239932205D3C800765412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1872399A2205D3C800765412;
+			remoteInfo = "Alice-Your Personal Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176070698997368917B566C0 /* Pods-Alice-Your Personal Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice-Your Personal Reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alice-Your Personal Reader/Pods-Alice-Your Personal Reader.release.xcconfig"; sourceTree = "<group>"; };
+		18634FF92206D25700896140 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1872399B2205D3C800765412 /* Alice-Your Personal Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alice-Your Personal Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1872399E2205D3C800765412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187239A02205D3C800765412 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187239A32205D3C800765412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187239A52205D3CF00765412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187239A82205D3CF00765412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187239AA2205D3CF00765412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187239AF2205D3CF00765412 /* Alice-Your Personal ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice-Your Personal ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187239B32205D3CF00765412 /* Alice_Your_Personal_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alice_Your_Personal_ReaderTests.swift; sourceTree = "<group>"; };
+		187239B52205D3CF00765412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187239BA2205D3CF00765412 /* Alice-Your Personal ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice-Your Personal ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187239BE2205D3CF00765412 /* Alice_Your_Personal_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alice_Your_Personal_ReaderUITests.swift; sourceTree = "<group>"; };
+		187239C02205D3CF00765412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290B08F53ACA1A28380F6A3B /* Pods-Alice-Your Personal ReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice-Your Personal ReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alice-Your Personal ReaderTests/Pods-Alice-Your Personal ReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B2023A11A9F194D065A0A0D /* Pods-Alice-Your Personal ReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice-Your Personal ReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alice-Your Personal ReaderUITests/Pods-Alice-Your Personal ReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		300A649A622DD5EDB084CCA3 /* Pods_Alice_Your_Personal_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alice_Your_Personal_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7C5BA79FB63FD6830D30EF /* Pods-Alice-Your Personal ReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice-Your Personal ReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alice-Your Personal ReaderTests/Pods-Alice-Your Personal ReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FF96EEEEBD25876DA1D3349 /* Pods-Alice-Your Personal Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice-Your Personal Reader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alice-Your Personal Reader/Pods-Alice-Your Personal Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		6195DCC7A240D5F4874858B8 /* Pods_Alice_Your_Personal_ReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alice_Your_Personal_ReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C745FEA9D6055FB29E8932D6 /* Pods-Alice-Your Personal ReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice-Your Personal ReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alice-Your Personal ReaderUITests/Pods-Alice-Your Personal ReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3CEC42BE95BB8FD87ECF9DA /* Pods_Alice_Your_Personal_ReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alice_Your_Personal_ReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187239982205D3C800765412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1127A5B2E84A4AC1791D1B3A /* Pods_Alice_Your_Personal_Reader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187239AC2205D3CF00765412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8577DA7E935FF728B5187067 /* Pods_Alice_Your_Personal_ReaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187239B72205D3CF00765412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD5CE5FE8DC910F1315D58D /* Pods_Alice_Your_Personal_ReaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187239922205D3C800765412 = {
+			isa = PBXGroup;
+			children = (
+				1872399D2205D3C800765412 /* Alice-Your Personal Reader */,
+				187239B22205D3CF00765412 /* Alice-Your Personal ReaderTests */,
+				187239BD2205D3CF00765412 /* Alice-Your Personal ReaderUITests */,
+				1872399C2205D3C800765412 /* Products */,
+				A063F5EF3791D6346382D65E /* Pods */,
+				FBAC00DC7D7774F8C3DBAD0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1872399C2205D3C800765412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1872399B2205D3C800765412 /* Alice-Your Personal Reader.app */,
+				187239AF2205D3CF00765412 /* Alice-Your Personal ReaderTests.xctest */,
+				187239BA2205D3CF00765412 /* Alice-Your Personal ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1872399D2205D3C800765412 /* Alice-Your Personal Reader */ = {
+			isa = PBXGroup;
+			children = (
+				1872399E2205D3C800765412 /* AppDelegate.swift */,
+				187239A02205D3C800765412 /* ViewController.swift */,
+				187239A22205D3C800765412 /* Main.storyboard */,
+				187239A52205D3CF00765412 /* Assets.xcassets */,
+				187239A72205D3CF00765412 /* LaunchScreen.storyboard */,
+				187239AA2205D3CF00765412 /* Info.plist */,
+				18634FF92206D25700896140 /* GoogleService-Info.plist */,
+			);
+			path = "Alice-Your Personal Reader";
+			sourceTree = "<group>";
+		};
+		187239B22205D3CF00765412 /* Alice-Your Personal ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				187239B32205D3CF00765412 /* Alice_Your_Personal_ReaderTests.swift */,
+				187239B52205D3CF00765412 /* Info.plist */,
+			);
+			path = "Alice-Your Personal ReaderTests";
+			sourceTree = "<group>";
+		};
+		187239BD2205D3CF00765412 /* Alice-Your Personal ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187239BE2205D3CF00765412 /* Alice_Your_Personal_ReaderUITests.swift */,
+				187239C02205D3CF00765412 /* Info.plist */,
+			);
+			path = "Alice-Your Personal ReaderUITests";
+			sourceTree = "<group>";
+		};
+		A063F5EF3791D6346382D65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FF96EEEEBD25876DA1D3349 /* Pods-Alice-Your Personal Reader.debug.xcconfig */,
+				176070698997368917B566C0 /* Pods-Alice-Your Personal Reader.release.xcconfig */,
+				290B08F53ACA1A28380F6A3B /* Pods-Alice-Your Personal ReaderTests.debug.xcconfig */,
+				3A7C5BA79FB63FD6830D30EF /* Pods-Alice-Your Personal ReaderTests.release.xcconfig */,
+				C745FEA9D6055FB29E8932D6 /* Pods-Alice-Your Personal ReaderUITests.debug.xcconfig */,
+				2B2023A11A9F194D065A0A0D /* Pods-Alice-Your Personal ReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBAC00DC7D7774F8C3DBAD0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				300A649A622DD5EDB084CCA3 /* Pods_Alice_Your_Personal_Reader.framework */,
+				6195DCC7A240D5F4874858B8 /* Pods_Alice_Your_Personal_ReaderTests.framework */,
+				D3CEC42BE95BB8FD87ECF9DA /* Pods_Alice_Your_Personal_ReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1872399A2205D3C800765412 /* Alice-Your Personal Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187239C32205D3CF00765412 /* Build configuration list for PBXNativeTarget "Alice-Your Personal Reader" */;
+			buildPhases = (
+				AF802A8B6ACA70CD13B3ED14 /* [CP] Check Pods Manifest.lock */,
+				187239972205D3C800765412 /* Sources */,
+				187239982205D3C800765412 /* Frameworks */,
+				187239992205D3C800765412 /* Resources */,
+				03B15B442776484C8A0DADD4 /* [CP] Embed Pods Frameworks */,
+				AEB8E6C096C9780BEECF7A68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alice-Your Personal Reader";
+			productName = "Alice-Your Personal Reader";
+			productReference = 1872399B2205D3C800765412 /* Alice-Your Personal Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187239AE2205D3CF00765412 /* Alice-Your Personal ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187239C62205D3CF00765412 /* Build configuration list for PBXNativeTarget "Alice-Your Personal ReaderTests" */;
+			buildPhases = (
+				2938121625B0959966E2C45D /* [CP] Check Pods Manifest.lock */,
+				187239AB2205D3CF00765412 /* Sources */,
+				187239AC2205D3CF00765412 /* Frameworks */,
+				187239AD2205D3CF00765412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187239B12205D3CF00765412 /* PBXTargetDependency */,
+			);
+			name = "Alice-Your Personal ReaderTests";
+			productName = "Alice-Your Personal ReaderTests";
+			productReference = 187239AF2205D3CF00765412 /* Alice-Your Personal ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187239B92205D3CF00765412 /* Alice-Your Personal ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187239C92205D3CF00765412 /* Build configuration list for PBXNativeTarget "Alice-Your Personal ReaderUITests" */;
+			buildPhases = (
+				8D69CC39B614FCF5E668E151 /* [CP] Check Pods Manifest.lock */,
+				187239B62205D3CF00765412 /* Sources */,
+				187239B72205D3CF00765412 /* Frameworks */,
+				187239B82205D3CF00765412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187239BC2205D3CF00765412 /* PBXTargetDependency */,
+			);
+			name = "Alice-Your Personal ReaderUITests";
+			productName = "Alice-Your Personal ReaderUITests";
+			productReference = 187239BA2205D3CF00765412 /* Alice-Your Personal ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187239932205D3C800765412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ashik Chowdhury";
+				TargetAttributes = {
+					1872399A2205D3C800765412 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					187239AE2205D3CF00765412 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1872399A2205D3C800765412;
+					};
+					187239B92205D3CF00765412 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1872399A2205D3C800765412;
+					};
+				};
+			};
+			buildConfigurationList = 187239962205D3C800765412 /* Build configuration list for PBXProject "Alice-Your Personal Reader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187239922205D3C800765412;
+			productRefGroup = 1872399C2205D3C800765412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1872399A2205D3C800765412 /* Alice-Your Personal Reader */,
+				187239AE2205D3CF00765412 /* Alice-Your Personal ReaderTests */,
+				187239B92205D3CF00765412 /* Alice-Your Personal ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187239992205D3C800765412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187239A92205D3CF00765412 /* LaunchScreen.storyboard in Resources */,
+				18634FFA2206D25700896140 /* GoogleService-Info.plist in Resources */,
+				187239A62205D3CF00765412 /* Assets.xcassets in Resources */,
+				187239A42205D3C800765412 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187239AD2205D3CF00765412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187239B82205D3CF00765412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03B15B442776484C8A0DADD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alice-Your Personal Reader/Pods-Alice-Your Personal Reader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alice-Your Personal Reader/Pods-Alice-Your Personal Reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2938121625B0959966E2C45D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alice-Your Personal ReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D69CC39B614FCF5E668E151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alice-Your Personal ReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB8E6C096C9780BEECF7A68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alice-Your Personal Reader/Pods-Alice-Your Personal Reader-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alice-Your Personal Reader/Pods-Alice-Your Personal Reader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF802A8B6ACA70CD13B3ED14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alice-Your Personal Reader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187239972205D3C800765412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187239A12205D3C800765412 /* ViewController.swift in Sources */,
+				1872399F2205D3C800765412 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187239AB2205D3CF00765412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187239B42205D3CF00765412 /* Alice_Your_Personal_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187239B62205D3CF00765412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187239BF2205D3CF00765412 /* Alice_Your_Personal_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187239B12205D3CF00765412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1872399A2205D3C800765412 /* Alice-Your Personal Reader */;
+			targetProxy = 187239B02205D3CF00765412 /* PBXContainerItemProxy */;
+		};
+		187239BC2205D3CF00765412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1872399A2205D3C800765412 /* Alice-Your Personal Reader */;
+			targetProxy = 187239BB2205D3CF00765412 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187239A22205D3C800765412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187239A32205D3C800765412 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187239A72205D3CF00765412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187239A82205D3CF00765412 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187239C12205D3CF00765412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187239C22205D3CF00765412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187239C42205D3CF00765412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF96EEEEBD25876DA1D3349 /* Pods-Alice-Your Personal Reader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D66ABB7985;
+				INFOPLIST_FILE = "Alice-Your Personal Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AshikChowdhury.Alice-Your-Personal-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187239C52205D3CF00765412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176070698997368917B566C0 /* Pods-Alice-Your Personal Reader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D66ABB7985;
+				INFOPLIST_FILE = "Alice-Your Personal Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AshikChowdhury.Alice-Your-Personal-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187239C72205D3CF00765412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290B08F53ACA1A28380F6A3B /* Pods-Alice-Your Personal ReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alice-Your Personal ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AshikChowdhury.Alice-Your-Personal-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alice-Your Personal Reader.app/Alice-Your Personal Reader";
+			};
+			name = Debug;
+		};
+		187239C82205D3CF00765412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7C5BA79FB63FD6830D30EF /* Pods-Alice-Your Personal ReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alice-Your Personal ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AshikChowdhury.Alice-Your-Personal-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alice-Your Personal Reader.app/Alice-Your Personal Reader";
+			};
+			name = Release;
+		};
+		187239CA2205D3CF00765412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C745FEA9D6055FB29E8932D6 /* Pods-Alice-Your Personal ReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alice-Your Personal ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AshikChowdhury.Alice-Your-Personal-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alice-Your Personal Reader";
+			};
+			name = Debug;
+		};
+		187239CB2205D3CF00765412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2023A11A9F194D065A0A0D /* Pods-Alice-Your Personal ReaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alice-Your Personal ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AshikChowdhury.Alice-Your-Personal-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alice-Your Personal Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187239962205D3C800765412 /* Build configuration list for PBXProject "Alice-Your Personal Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187239C12205D3CF00765412 /* Debug */,
+				187239C22205D3CF00765412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187239C32205D3CF00765412 /* Build configuration list for PBXNativeTarget "Alice-Your Personal Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187239C42205D3CF00765412 /* Debug */,
+				187239C52205D3CF00765412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187239C62205D3CF00765412 /* Build configuration list for PBXNativeTarget "Alice-Your Personal ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187239C72205D3CF00765412 /* Debug */,
+				187239C82205D3CF00765412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187239C92205D3CF00765412 /* Build configuration list for PBXNativeTarget "Alice-Your Personal ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187239CA2205D3CF00765412 /* Debug */,
+				187239CB2205D3CF00765412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187239932205D3C800765412 /* Project object */;
+}
